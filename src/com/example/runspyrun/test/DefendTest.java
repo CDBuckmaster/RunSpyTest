@@ -7,11 +7,11 @@ import com.example.runspyrun.MainActivity;
 import com.example.runspyrun.DefendActivity;
 import com.jayway.android.robotium.solo.Solo;
 
-public class TestMain extends ActivityInstrumentationTestCase2<DefendActivity> {
+public class DefendTest extends ActivityInstrumentationTestCase2<DefendActivity> {
 	
 	private Solo solo;
 	
-	public TestMain() {
+	public DefendTest() {
 		super(DefendActivity.class);
 	}
 
